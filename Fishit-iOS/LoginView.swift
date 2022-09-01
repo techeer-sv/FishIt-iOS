@@ -8,18 +8,16 @@
 import SwiftUI
 
 struct LoginView: View {
+	@State private var action: Int? = 0
     var body: some View {
-        ZStack{
-        	
+    	NavigationView{
         	VStack{
-         	Spacer()
             Image("FishItLogo")
                   .resizable()
                   .aspectRatio(contentMode: .fit)
                   .frame(width: 250, height: 250 )
         	Spacer()
             Divider()
-            Spacer()
             LoginButtonView(imageName: "KakaoButton")
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                           
@@ -27,18 +25,9 @@ struct LoginView: View {
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                           
             HStack(spacing: 80){
-            	Button(action: { 
-                	print("Pressed")
-                }) {
-                    Text("로그인")
-                        .accentColor(.gray)
-                }
-                Button(action: {
-                	print("Pressed")
-                }) {
-                    Text("회원가입")
-                        .accentColor(.gray)
-                }
+            	NavigationLink("로그인", destination: SignUpView()).tint(.gray)
+                
+                NavigationLink("회원가입", destination: SignUpView()).tint(.gray)
             }
             Spacer()
             }

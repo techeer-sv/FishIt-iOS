@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83628BB1F2300AB58E6 /* LoginView.swift */; };
 		BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */; };
+		BD6AE83B28C06F0700AB58E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */; };
+		BD6AE83D28C0713200AB58E6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83C28C0713200AB58E6 /* SignUpView.swift */; };
 		BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */; };
 		BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4E28B9E38A00196C1C /* ContentView.swift */; };
 		BD9D0C5128B9E38C00196C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5028B9E38C00196C1C /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		BD6AE83628BB1F2300AB58E6 /* LoginView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BD6AE83C28C0713200AB58E6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		BD9D0C4928B9E38A00196C1C /* Fishit-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishit-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishit_iOSApp.swift; sourceTree = "<group>"; };
 		BD9D0C4E28B9E38A00196C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,12 +60,14 @@
 		BD9D0C4B28B9E38A00196C1C /* Fishit-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */,
 				BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */,
 				BD9D0C4E28B9E38A00196C1C /* ContentView.swift */,
 				BD9D0C5028B9E38C00196C1C /* Assets.xcassets */,
 				BD6AE83628BB1F2300AB58E6 /* LoginView.swift */,
 				BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */,
 				BD9D0C5228B9E38C00196C1C /* Preview Content */,
+				BD6AE83C28C0713200AB58E6 /* SignUpView.swift */,
 			);
 			path = "Fishit-iOS";
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			files = (
 				BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */,
 				BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */,
+				BD6AE83B28C06F0700AB58E6 /* NetworkManager.swift in Sources */,
 				BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */,
+				BD6AE83D28C0713200AB58E6 /* SignUpView.swift in Sources */,
 				BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fishit-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 96H4ZGC4D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fishit-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 96H4ZGC4D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
