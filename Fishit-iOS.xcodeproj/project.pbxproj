@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83628BB1F2300AB58E6 /* LoginView.swift */; };
+		BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */; };
 		BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */; };
 		BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4E28B9E38A00196C1C /* ContentView.swift */; };
 		BD9D0C5128B9E38C00196C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5028B9E38C00196C1C /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD6AE83628BB1F2300AB58E6 /* LoginView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		BD9D0C4928B9E38A00196C1C /* Fishit-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishit-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishit_iOSApp.swift; sourceTree = "<group>"; };
 		BD9D0C4E28B9E38A00196C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 				BD9D0C4A28B9E38A00196C1C /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		BD9D0C4A28B9E38A00196C1C /* Products */ = {
 			isa = PBXGroup;
@@ -54,6 +59,8 @@
 				BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */,
 				BD9D0C4E28B9E38A00196C1C /* ContentView.swift */,
 				BD9D0C5028B9E38C00196C1C /* Assets.xcassets */,
+				BD6AE83628BB1F2300AB58E6 /* LoginView.swift */,
+				BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */,
 				BD9D0C5228B9E38C00196C1C /* Preview Content */,
 			);
 			path = "Fishit-iOS";
@@ -137,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */,
+				BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */,
 				BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */,
 				BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */,
 			);
