@@ -15,6 +15,8 @@
 		BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4E28B9E38A00196C1C /* ContentView.swift */; };
 		BD9D0C5128B9E38C00196C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5028B9E38C00196C1C /* Assets.xcassets */; };
 		BD9D0C5428B9E38C00196C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5328B9E38C00196C1C /* Preview Assets.xcassets */; };
+		E763264328BFBA09003D2825 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763264228BFBA09003D2825 /* SignupView.swift */; };
+		E763264528C09680003D2825 /* sendPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763264428C09680003D2825 /* sendPostRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		BD9D0C4E28B9E38A00196C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD9D0C5028B9E38C00196C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9D0C5328B9E38C00196C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E763264228BFBA09003D2825 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		E763264428C09680003D2825 /* sendPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendPostRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */,
 				BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */,
 				BD9D0C4E28B9E38A00196C1C /* ContentView.swift */,
+				E763264228BFBA09003D2825 /* SignupView.swift */,
+				E763264428C09680003D2825 /* sendPostRequest.swift */,
 				BD9D0C5028B9E38C00196C1C /* Assets.xcassets */,
 				BD6AE83628BB1F2300AB58E6 /* LoginView.swift */,
 				BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */,
@@ -150,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E763264528C09680003D2825 /* sendPostRequest.swift in Sources */,
 				BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */,
 				BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */,
 				BD6AE83B28C06F0700AB58E6 /* NetworkManager.swift in Sources */,
