@@ -10,7 +10,6 @@ import SwiftUI
 struct LoginButtonView: View {
     let imageName: String
     
-    
     var body: some View {
 	Button(action: {
                 print("Button pressed")
