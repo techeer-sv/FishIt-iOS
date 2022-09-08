@@ -18,7 +18,7 @@ struct LoginView: View {
                   .frame(width: 250, height: 250 )
         	Spacer()
             Divider()
-            LoginButtonView(imageName: "KakaoButton")
+            LoginButtonView(imageName: "KaKaoButton")
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                           
             LoginButtonView(imageName: "GoogleButton")
