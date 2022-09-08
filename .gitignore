@@ -97,6 +97,9 @@ iOSInjectionProject/
 
 ## Xcode 8 and earlier
 
+## MAC
+.DS_Store
+
 ### Xcode Patch ###
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
