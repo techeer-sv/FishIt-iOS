@@ -9,28 +9,35 @@
 /* Begin PBXBuildFile section */
 		BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83628BB1F2300AB58E6 /* LoginView.swift */; };
 		BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */; };
-		BD6AE83B28C06F0700AB58E6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */; };
 		BD6AE83D28C0713200AB58E6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE83C28C0713200AB58E6 /* SignUpView.swift */; };
 		BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */; };
 		BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D0C4E28B9E38A00196C1C /* ContentView.swift */; };
 		BD9D0C5128B9E38C00196C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5028B9E38C00196C1C /* Assets.xcassets */; };
 		BD9D0C5428B9E38C00196C1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9D0C5328B9E38C00196C1C /* Preview Assets.xcassets */; };
-		E763264328BFBA09003D2825 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763264228BFBA09003D2825 /* SignupView.swift */; };
-		E763264528C09680003D2825 /* sendPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E763264428C09680003D2825 /* sendPostRequest.swift */; };
+		BDBB69DD28C6B5210012FBF8 /* sendPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69DC28C6B5210012FBF8 /* sendPostRequest.swift */; };
+		BDBB69E128C868460012FBF8 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E028C868460012FBF8 /* ProfileEditView.swift */; };
+		BDBB69E328C872DE0012FBF8 /* LoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E228C872DE0012FBF8 /* LoginSample.swift */; };
+		BDBB69E528C9AF6B0012FBF8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */; };
+		BDBB69E828CEFD300012FBF8 /* sendAuthPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */; };
+		BDBB69EB28D053E30012FBF8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BDBB69EA28D053E30012FBF8 /* Alamofire */; };
+		BDBB69ED28D0575A0012FBF8 /* requestSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69EC28D0575A0012FBF8 /* requestSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD6AE83628BB1F2300AB58E6 /* LoginView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
-		BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		BD6AE83C28C0713200AB58E6 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		BD9D0C4928B9E38A00196C1C /* Fishit-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishit-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishit_iOSApp.swift; sourceTree = "<group>"; };
 		BD9D0C4E28B9E38A00196C1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD9D0C5028B9E38C00196C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9D0C5328B9E38C00196C1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E763264228BFBA09003D2825 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		E763264428C09680003D2825 /* sendPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendPostRequest.swift; sourceTree = "<group>"; };
+		BDBB69DC28C6B5210012FBF8 /* sendPostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sendPostRequest.swift; sourceTree = "<group>"; };
+		BDBB69E028C868460012FBF8 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		BDBB69E228C872DE0012FBF8 /* LoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSample.swift; sourceTree = "<group>"; };
+		BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BDBB69E628C9B27F0012FBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAuthPostRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBB69EB28D053E30012FBF8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +72,9 @@
 		BD9D0C4B28B9E38A00196C1C /* Fishit-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BD6AE83A28C06F0700AB58E6 /* NetworkManager.swift */,
+				BDBB69E628C9B27F0012FBF8 /* Info.plist */,
+				BDBB69DC28C6B5210012FBF8 /* sendPostRequest.swift */,
+				BDBB69E228C872DE0012FBF8 /* LoginSample.swift */,
 				BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */,
 				BD9D0C4E28B9E38A00196C1C /* ContentView.swift */,
 				E763264228BFBA09003D2825 /* SignupView.swift */,
@@ -74,6 +84,10 @@
 				BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */,
 				BD9D0C5228B9E38C00196C1C /* Preview Content */,
 				BD6AE83C28C0713200AB58E6 /* SignUpView.swift */,
+				BDBB69E028C868460012FBF8 /* ProfileEditView.swift */,
+				BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */,
+				BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */,
+				BDBB69EC28D0575A0012FBF8 /* requestSample.swift */,
 			);
 			path = "Fishit-iOS";
 			sourceTree = "<group>";
@@ -102,6 +116,9 @@
 			dependencies = (
 			);
 			name = "Fishit-iOS";
+			packageProductDependencies = (
+				BDBB69EA28D053E30012FBF8 /* Alamofire */,
+			);
 			productName = "Fishit-iOS";
 			productReference = BD9D0C4928B9E38A00196C1C /* Fishit-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +147,9 @@
 				Base,
 			);
 			mainGroup = BD9D0C4028B9E38A00196C1C;
+			packageReferences = (
+				BDBB69E928D053E30012FBF8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BD9D0C4A28B9E38A00196C1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,13 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E763264528C09680003D2825 /* sendPostRequest.swift in Sources */,
+				BDBB69E328C872DE0012FBF8 /* LoginSample.swift in Sources */,
 				BD6AE83928BDE21A00AB58E6 /* LoginButtonView.swift in Sources */,
+				BDBB69E528C9AF6B0012FBF8 /* ProfileView.swift in Sources */,
+				BDBB69DD28C6B5210012FBF8 /* sendPostRequest.swift in Sources */,
 				BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */,
-				BD6AE83B28C06F0700AB58E6 /* NetworkManager.swift in Sources */,
 				BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */,
+				BDBB69E128C868460012FBF8 /* ProfileEditView.swift in Sources */,
+				BDBB69ED28D0575A0012FBF8 /* requestSample.swift in Sources */,
 				BD6AE83D28C0713200AB58E6 /* SignUpView.swift in Sources */,
 				BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */,
+				BDBB69E828CEFD300012FBF8 /* sendAuthPostRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +318,7 @@
 				DEVELOPMENT_TEAM = 96H4ZGC4D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fishit-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +348,7 @@
 				DEVELOPMENT_TEAM = 96H4ZGC4D5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fishit-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,6 +389,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDBB69E928D053E30012FBF8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDBB69EA28D053E30012FBF8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDBB69E928D053E30012FBF8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD9D0C4128B9E38A00196C1C /* Project object */;
 }
