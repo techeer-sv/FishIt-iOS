@@ -20,7 +20,8 @@
 		BDBB69E528C9AF6B0012FBF8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */; };
 		BDBB69E828CEFD300012FBF8 /* sendAuthPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */; };
 		BDBB69EB28D053E30012FBF8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BDBB69EA28D053E30012FBF8 /* Alamofire */; };
-		BDBB69ED28D0575A0012FBF8 /* requestSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB69EC28D0575A0012FBF8 /* requestSample.swift */; };
+		BDBB69ED28D0575A0012FBF8 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E70B88B228D2E954002CBFDD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70B88B128D2E954002CBFDD /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BDBB69E628C9B27F0012FBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendAuthPostRequest.swift; sourceTree = "<group>"; };
+		E70B88B128D2E954002CBFDD /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,17 +79,15 @@
 				BDBB69E228C872DE0012FBF8 /* LoginSample.swift */,
 				BD9D0C4C28B9E38A00196C1C /* Fishit_iOSApp.swift */,
 				BD9D0C4E28B9E38A00196C1C /* ContentView.swift */,
-				E763264228BFBA09003D2825 /* SignupView.swift */,
-				E763264428C09680003D2825 /* sendPostRequest.swift */,
 				BD9D0C5028B9E38C00196C1C /* Assets.xcassets */,
 				BD6AE83628BB1F2300AB58E6 /* LoginView.swift */,
 				BD6AE83828BDE21A00AB58E6 /* LoginButtonView.swift */,
 				BD9D0C5228B9E38C00196C1C /* Preview Content */,
 				BD6AE83C28C0713200AB58E6 /* SignUpView.swift */,
+				E70B88B128D2E954002CBFDD /* SignInView.swift */,
 				BDBB69E028C868460012FBF8 /* ProfileEditView.swift */,
 				BDBB69E428C9AF6B0012FBF8 /* ProfileView.swift */,
 				BDBB69E728CEFD300012FBF8 /* sendAuthPostRequest.swift */,
-				BDBB69EC28D0575A0012FBF8 /* requestSample.swift */,
 			);
 			path = "Fishit-iOS";
 			sourceTree = "<group>";
@@ -182,8 +182,9 @@
 				BDBB69DD28C6B5210012FBF8 /* sendPostRequest.swift in Sources */,
 				BD6AE83728BB1F2300AB58E6 /* LoginView.swift in Sources */,
 				BD9D0C4F28B9E38A00196C1C /* ContentView.swift in Sources */,
+				E70B88B228D2E954002CBFDD /* SignInView.swift in Sources */,
 				BDBB69E128C868460012FBF8 /* ProfileEditView.swift in Sources */,
-				BDBB69ED28D0575A0012FBF8 /* requestSample.swift in Sources */,
+				BDBB69ED28D0575A0012FBF8 /* (null) in Sources */,
 				BD6AE83D28C0713200AB58E6 /* SignUpView.swift in Sources */,
 				BD9D0C4D28B9E38A00196C1C /* Fishit_iOSApp.swift in Sources */,
 				BDBB69E828CEFD300012FBF8 /* sendAuthPostRequest.swift in Sources */,
