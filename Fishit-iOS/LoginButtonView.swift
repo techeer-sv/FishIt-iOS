@@ -25,7 +25,7 @@ struct LoginButtonView: View {
 
 struct LoginButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginButtonView(imageName: "GoogleButton")
+        LoginButtonView(imageName: "KaKaoButton")
         .previewLayout(.sizeThatFits)
     }
 }

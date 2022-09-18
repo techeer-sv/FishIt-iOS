@@ -17,7 +17,8 @@ struct ProfileView: View {
     	NavigationView{
             VStack{
             Spacer()
-            Text("asdf")
+            Text("Email: \(email)")
+            Text("User Name: test")
             Button(action: {
                     print(self.email + self.password)
                     
