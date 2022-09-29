@@ -18,14 +18,14 @@ struct LoginView: View {
                   .frame(width: 250, height: 250 )
         	Spacer()
             Divider()
-            LoginButtonView(imageName: "KakaoButton")
+            LoginButtonView(imageName: "KaKaoButton")
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                           
             LoginButtonView(imageName: "GoogleButton")
             .padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                           
             HStack(spacing: 80){
-            	NavigationLink("로그인", destination: SignUpView()).tint(.gray)
+            	NavigationLink("로그인", destination: SignInView()).tint(.gray)
                 
                 NavigationLink("회원가입", destination: SignUpView()).tint(.gray)
             }
