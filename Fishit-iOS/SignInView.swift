@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct SignInView: View {
     @State var email: String = ""
@@ -30,16 +31,30 @@ struct SignInView: View {
             Spacer()
             Button(action: {
                 print("ButtonPressed")
-                sendPostRequest("http://3.39.75.19:8080/api/v1/auth/new", parameters:
+                AF.request("http://3.39.75.19:8080/api/v1/auth/new",
+                   method: .post,
+                   parameters:
                     ["email": self.email,
                      "password": self.password
-                     ]){
-                    responseObject, error in guard let _ = responseObject, error == nil else {
-                        print(error ?? "Unknown error")
-                        return
-                    }
-                }
-            }){
+                    ], encoder: JSONParameterEncoder.default).validate(statusCode:200..<300)
+                    .responseJSON{ response in
+                            switch response.result {
+                                case .success:
+                                    print("success!")
+                                    if let jsonObject = try! response.result.get() as? [String: Any] {
+                                        let result = jsonObject["accessToken"] as? String
+                                        let timestamp = jsonObject["accessTokenExpiresIn"] as? String
+                                        let userId = jsonObject["grantType"] as? String
+                                        let userPassword = jsonObject["refreshToken"] as? String
+                                        print(result!)
+                                    }
+                                case .failure(let error):
+                                    print(error)
+                                    return
+                          }
+                        }
+               
+                    }){
                 Text("로그인").tint(.white)
             }.frame(width: 345, height: 47, alignment: .center)
             .background(Color("MainColor2"))
@@ -48,6 +63,7 @@ struct SignInView: View {
         }
     }
 }
+
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
