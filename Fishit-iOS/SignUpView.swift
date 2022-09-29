@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Alamofire
 
 struct SignUpView: View {
 	@State var email: String = ""
@@ -43,16 +44,7 @@ struct SignUpView: View {
             Spacer()
             Button(action: {
                 print("ButtonPressed")
-                sendPostRequest("http://3.39.75.19:8080/api/v1/users/new", parameters:
-                    ["email": self.email,
-                     "memberName": self.username,
-                     "password": self.password
-                     ]){
-                    responseObject, error in guard let _ = responseObject, error == nil else {
-                        print(error ?? "Unknown error")
-                        return
-                    }
-                }
+                signUp(email:self.email, username:self.username, password: self.password)
             }){
             	Text("회원가입").tint(.white)
             }.frame(width: 345, height: 47, alignment: .center)
@@ -62,6 +54,29 @@ struct SignUpView: View {
         }
     }
 }
+
+func signUp(email:String, username: String, password:String) {
+      let url = "http://3.39.75.19:8080/api/v1/users/new"
+      let param = ["email": email,
+                   "memberName": username,
+                   "password": password
+      ]
+
+    AF.request(url,
+       method: .post,
+       parameters:param,
+               encoder: JSONParameterEncoder.default).validate(statusCode:200..<300)
+        .responseJSON{ response in
+                switch response.result {
+                    case .success:
+                        print("success!")
+                    if let jsonObject = try! response.result.get() as? [String: Any]{}
+                    case .failure(let error):
+                        print(error)
+                        return
+              }
+            }
+   }
 
 struct SignUpView_Previews: PreviewProvider {
     static var previews: some View {
